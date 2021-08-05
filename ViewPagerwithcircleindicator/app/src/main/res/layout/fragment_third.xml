@@ -7,10 +7,12 @@
     tools:context=".ThirdFragment">
 
     <TextView
+        android:textColor="@color/black"
         android:id="@+id/tvHeadingFragC"
         style="@style/Heading" />
 
     <TextView
+        android:textColor="@color/black"
         style="@style/Text"
         android:id="@+id/tvTextFragC"
         android:layout_margin="20dp"/>

@@ -7,10 +7,12 @@
     tools:context=".FirstFragment">
 
     <TextView
+        android:textColor="@color/black"
         android:id="@+id/tvHeadingFragA"
         style="@style/Heading" />
 
     <TextView
+        android:textColor="@color/black"
         style="@style/Text"
         android:id="@+id/tvTextFragA"
         android:layout_margin="20dp"/>

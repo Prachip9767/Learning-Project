@@ -17,13 +17,13 @@ public class ViewAdapter extends FragmentStateAdapter {
     public Fragment createFragment(int position) {
         switch (position){
             case 0:
-                return FirstFragment.newInstance("Write on the go","Get stuff done with or without an internet connection.");
+                return FirstFragment.newInstance("","");
             case 1:
-                return SecondFragment.newInstance("Share and edit together","Write on you own or invite more people to contribute.");
+                return SecondFragment.newInstance("","");
             case 2:
-                return ThirdFragment.newInstance("Automatically save to the web","Never lose your progress, so you can keep working from any computer or device.");
+                return ThirdFragment.newInstance("","");
             case 3:
-                return FourthFragment.newInstance("Edit World Documents","Open, edit and save Word files -all within Docs.");
+                return FourthFragment.newInstance("","");
         }
         return FirstFragment.newInstance("","");
     }

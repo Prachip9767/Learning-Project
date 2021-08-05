@@ -6,10 +6,12 @@
     android:background="@drawable/gs4"
     tools:context=".FourthFragment">
     <TextView
+        android:textColor="@color/black"
         android:id="@+id/tvHeadingFragD"
         style="@style/Heading" />
 
     <TextView
+        android:textColor="@color/black"
         style="@style/Text"
         android:id="@+id/tvTextFragD"
         android:layout_margin="20dp"/>
